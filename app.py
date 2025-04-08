@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Define your secure code or password here
-SECURE_CODE = "tpad"
+SECURE_CODE = "tpads"
 
 # Create a password input field so that the code is not displayed
 user_code = st.text_input("Enter the access code to view the app:", type="password")
